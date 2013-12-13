@@ -1,3 +1,2 @@
-require_relative '../sudoku_validator'
+require_relative '../models/sudoku_grid'
 
-require 'yaml'
