@@ -1,0 +1,6 @@
+#!/user/bin/env ruby
+
+$: << File.join(File.dirname(__FILE__), '..', 'lib')
+require 'sudoku_validator'
+
+puts SudokuValidator::Validate.validate_grid ARGV[0].to_s
